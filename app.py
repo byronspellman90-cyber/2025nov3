@@ -1,4 +1,8 @@
-def print_hello():
-    print("hello")
+print('hello class')
 
-print_hello()    
+def say_hello(): 
+    return 'hello'
+
+result = say_hello()
+
+print(result)
